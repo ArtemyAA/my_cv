@@ -47,12 +47,13 @@ body {
   li {
     margin-bottom: 10px;
   }
-  video {
-    max-width: 40%;
-    height: auto;
-  }
+
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.video-container video {
+  max-width: 40%; 
+  max-height: auto;
 }
