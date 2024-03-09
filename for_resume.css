@@ -4,6 +4,7 @@ body {
     color: #333;
     font-family: sans-serif;
     line-height: 1.5;
+    background-color: rgb(250,250,210);
   }
 
   h1 {
@@ -46,3 +47,12 @@ body {
   li {
     margin-bottom: 10px;
   }
+  video {
+    max-width: 40%;
+    height: auto;
+  }
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
