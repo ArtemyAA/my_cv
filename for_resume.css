@@ -1,14 +1,16 @@
 @font-face {
   font-weight: normal;
   font-family: Comfortaa;
-  src: url("Comfortaa-Regular.ttf");
+  src: url("shrifts/Comfortaa-Regular.ttf");
 }
 
 @font-face {
   font-weight: bold;
   font-family: Comfortaa;
-  src: url("Comfortaa-Bold.ttf");
+  src: url("shrifts/Comfortaa-Bold.ttf");
 }
+
+
 
 body {
     margin: 0;
@@ -20,11 +22,18 @@ body {
     background-color: #222831;
   }
 
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 30px;
+    display: flex;
+}
+
   h1 {
     margin-top: 50px;
     margin-bottom: 10px;
-    font-size: 60px;
-    text-align: center;
+    font-size: 40px;
     color: #fd7014;
   }
 
@@ -49,18 +58,12 @@ body {
   align-items: center;
 }
 .video-container video {
-  max-width: 40%; 
+  max-width: 60%; 
   max-height: auto;
 }
 
-.container {
-  width: 1280px;
-  margin: 0 auto;
-  padding: 50px 30px;
-}
 .definitions {
   padding: 30px;
-
   background: #393e46;
 }
 
@@ -69,3 +72,14 @@ body {
   font-weight: bold;
   font-variant: small-caps;
 }
+
+.photo img {
+  width: 200px;
+  height: auto;
+}
+
+
+.skills {
+
+}
+
